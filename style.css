@@ -110,28 +110,29 @@ button {
 }
 
 .flex-container {
-    padding-top: 20px;
-    border: solid red;
-    margin-top: 0;
+    padding-top: 50px;
+    gap: 50px;
     display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-content: space-between;
+    align-items: top;
     justify-content: center;
 }
 
-.box {
+.square {
     display: flex;
     justify-content: center;
-    color: white;
-    border: solid 6px #3882f6;
-    border-radius: 20%;
+    border-radius: 10%;
     background-color: white;
-    width: 150px;
+    width: 220px;
+    height: 220px;
+    border: 5px solid #3882f6;
     margin: 20px;
-    line-height: 140px;
-    font-size: 20px;
 }
 
-.text {
-    border: solid blue;
-    width: 100px;
+h2 {
+    font-weight: 100;
+    width: 250px;
     text-align: center;
 }
