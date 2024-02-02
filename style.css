@@ -60,7 +60,6 @@ ul {
 }
 
 .header {
-    border: solid red;
     background-color: #1f2937;
     color: white;
     min-height: 400px;
@@ -176,4 +175,71 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1%;
+    width: 1300px;
+    height: 150px;
+    background-color: #3882f6;
+}
+
+.bluebox h1 {
+    font-size: x-large;
+    color: white;
+}
+
+.bluebox p {
+    color: #cecece;
+}
+
+ .bluebox button {
+ color: white;
+ border: solid white;
+ width: 130px;
+ font-size: 18px;
+ cursor: pointer;
+ width: 160px;
+}  
+
+
+.navbar2 .logo {
+    font-size: large;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.navbar2 {
+  background-color: #1f2937; 
+  color: white;
+  height: 110px;
+}
+
+.container2 {
+    width: 1200px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+.navbar2 a:hover { 
+    color: white;
+} 
+
+.navbar2 .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
