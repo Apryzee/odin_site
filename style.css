@@ -27,6 +27,7 @@ ul {
 }
 
 .container {
+    width: 1200px;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
@@ -59,10 +60,11 @@ ul {
 }
 
 .header {
+    border: solid red;
     background-color: #1f2937;
     color: white;
     min-height: 400px;
-    height: 450px;
+    height: 490px;
 }
 
 button {
@@ -78,7 +80,7 @@ button {
 }
 
 .header h1 {
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: bold;
     line-height: 1.2;
     width: 400px;
@@ -89,6 +91,7 @@ button {
 }
 
 .header img {
+    margin-top: 40px;
     max-width: 400px;
 }
 
@@ -111,7 +114,6 @@ button {
 
 .flex-container {
     height: 550px;
-    border: solid red;
     padding-top: 50px;
     gap: 50px;
     display: flex;
